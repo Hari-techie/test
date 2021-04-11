@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <style>
+        body
+        {
+            background: url(ig.jpg) no-repeat 50% 50% fixed;
+            background-size: cover;
+        }
+        h1
+        {
+            color: chartreuse;
+            background: darkmagenta;
+            text-align: center;
+        }
+        div
+        {
+            padding: 0% 0% 0% 45%;
+        }
+        h2
+        {
+            color: yellow;
+        }
+        ::placeholder
+        {
+           color: #000;
+           text-indent: 50px;
+        }
+        a 
+        {
+            background-color: black;
+            color: rgb(76, 218, 107);
+        }
+        input
+        {
+            border-radius: 8px;
+            height: 30px;
+            color: black;
+            background-color: rgb(219, 118, 219);
+        }
+        .button
+        {
+            border-radius: 8px;
+            background: black;
+            color: cornsilk;
+            border-width: thick;
+            border-style: outset;
+            transition: unset;
+        }
+        .button:hover
+        {
+            background: black;
+            color: cornsilk;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <div>
+        <h2><mark>Username</mark></h2><br>
+        <input type="text" placeholder="username"><br>
+        <h2><mark>Email Id</mark></h2>
+        <input type="email" placeholder="email"><br>
+        <h2><mark>Phone number</mark></h2><br>
+        <input type="number" placeholder="mobile number"><br>
+        <h2><mark>Password</mark></h2><br>
+        <input type="password" placeholder="password"><br><br>
+        <input class="button" type="submit" name="submit" formaction="login.html"> 
+        <a href="login.html"><b>Already have account?Login</b></a>
+    </div>
+</body>
+</html>

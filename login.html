@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body
+        {
+            background: url('ig.jpg') no-repeat 50% 50% fixed;
+            background-size: cover;  
+        }
+        div
+        {
+            color: yellow;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: oblique;
+            font-size: 12px;
+            padding:9% 0% 0% 43%;
+        }
+        .button {
+  border-radius: 8px;
+  background-color: #f4511e;
+  border: outset;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  font-style: oblique;
+  padding: 5px;
+  width: 100px;
+  cursor: pointer;
+  margin: 2px;
+  transition-duration:  0.5s;
+}
+ 
+ .button:hover{
+    
+    color: #FFFFFF;
+    background-color:  #f4511e;
+ }
+
+ h1
+ {
+  text-align: center;
+  color: rgb(42, 218, 94);
+  background-color: rgb(57, 55, 185);
+  backface-visibility: visible;
+ }
+ a 
+ {
+   background-color: rgb(65, 55, 62);
+   color: bisque;
+   transition: ease-in-out;
+ }
+ input
+ {
+   background-color: bisque;
+   border-radius: 8px;
+   color: black;
+   font-style: oblique;
+   height: 25px;
+   border: whitesmoke;
+   place-content: inherit;
+   
+ }
+ ::placeholder
+ {
+   color: rgba(0, 0, 0, 0.918);
+   text-indent: 40px;
+   
+ }
+</style>    
+</head>
+<body>
+  <h1>Login Page</h1>
+<div>
+    <form action="post">
+        <h2><mark>Username</mark></h2>
+        <input type="text" name="User" placeholder="username" >
+        <h2><mark>Password</mark></h2>
+        <input type="password" name="Password" placeholder="password" ><br><br>
+        <a href="forget.html"><b>Forget Password?</b></a><br><br>
+        <input class="button button1" type="submit" name="Submit" formaction="home.html">
+        <a href="signup.html"><b>New user?Sign up</b></a>
+    </form>
+</div>
+</body>
+</html>
